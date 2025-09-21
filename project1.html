@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hill Cipher Text Encryption Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hill Cipher Text Encryption</h1>
+  </header>
+
+  <main>
+    <!-- Project Image -->
+    <figure align="center">
+      <img src="Images/HillCipher.png" alt="Illustration of Hill Cipher Encryption project" width="500">
+      <figcaption>Encrypted output using the Hill Cipher algorithm in C.</figcaption>
+    </figure>
+
+    <!-- Project Description -->
+    <section>
+      <h2>Description</h2>
+      <p>
+         This project encrypts alphabetic characters from a plaintext file using the Hill cipher algorithm. 
+         A key is provided as an n by n matrix (between 2 by 2 and 9 by 9), and the program processes the text by 
+         cleaning and padding with 'x' before encryption. The ciphertext is displayed in uppercase directly to 
+         the console.
+      </p>
+      <ul>
+        <li>Encrypts text using the Hill cipher with a matrix size of 2 by 2 up to 9 by 9.</li>
+        <li>Cleans input by converting to lowercase, removing non-alphabetic characters, and padding with 'x'.</li>
+        <li>Reads matrix and plaintext from files, then applies matrix multiplication and mod 26 arithmetic.</li>
+        <li>Outputs key matrix, formatted plaintext, and resulting ciphertext (80 characters per line).</li>
+      </ul>
+    </section>
+
+    <!-- Skills Learned -->
+    <section>
+      <h2>Skills Learned</h2>
+      <ul>
+        <li>C programming with file I/O and command-line arguments.</li>
+        <li>Matrix operations and modular arithmetic.</li>
+        <li>String manipulation and data cleaning.</li>
+        <li>Working with a remote Unix server (Eustis) via SSH and Bash commands.</li>
+        <li>Debugging and compiling with GCC in a Unix environment.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!--The Ending of This Project 1 Page-->
+  <footer>
+    <a href="index.html">← Go Back to My Resume</a>
+  </footer>
+
+</body>
+</html>
