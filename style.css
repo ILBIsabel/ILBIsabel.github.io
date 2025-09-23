@@ -20,16 +20,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.links a {
-  display: inline-block;
-  background: #7c5e2c;
-  color: #fff;
-  padding: 0.6em 1.2em;
-  margin: 0 0.5em;
-  border-radius: 6px;
-  font-weight: bold;
-}
-
 .links a:hover {
   background: #4d381c;
   transform: scale(1.05);
@@ -177,4 +167,5 @@ footer {
     font-size: 2.5em;
   }
 }
+
 
